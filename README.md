@@ -45,6 +45,7 @@ uvicorn app:app --reload
 ## Try it out in your browser:
 
 Visit: http://127.0.0.1:8000/docs
+
 You’ll find an interactive Swagger UI where you can test the API.
 
 
