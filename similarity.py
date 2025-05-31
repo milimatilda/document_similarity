@@ -1,7 +1,7 @@
 from sklearn.metrics.pairwise import cosine_similarity
 from sentence_transformers import SentenceTransformer, util
 
-model = SentenceTransformer('all-MiniLM-L6-v2')  #  Pretrained SentenceTransformer model for generating sentence embeddings
+model = SentenceTransformer('paraphrase-MiniLM-L3-v2')  #  Pretrained SentenceTransformer model for generating sentence embeddings
 
 
 def convert_to_chunks(text, max_chunk_size = 500):
